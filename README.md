@@ -23,3 +23,6 @@ Les tâches peuvent être ajoutées, modifiées, cochées comme terminées ou su
 - JavaScript pour la logique et la gestion du localStorage.
 
 - Font Awesome pour les icônes.
+
+# URL
+https://bachar004.github.io/Todo_List/
