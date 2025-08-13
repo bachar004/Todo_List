@@ -1,0 +1,97 @@
+body{
+    margin:0%;
+    display:flex;
+    width: 100%;
+    background-color: rgb(81, 183, 239);
+} 
+.g{
+    flex:1;
+}
+.g img{
+    margin-left: 10%;
+    width: 30vw;
+    height: 85vh;
+}
+.d{
+    margin:5% 5% 5% 5%;
+    padding: 1% 2%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 226, 226);
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(137, 190, 190, 0.5);
+}
+.ico{
+    display: flex;
+    position: relative;
+}
+.ico i{
+    position:absolute;
+    top: 21.5px;
+    left: 90px;
+    color: green;
+}
+.add{
+    display: flex;
+    width:100%;
+}
+.add i{
+    color: green;
+    cursor: pointer;
+    flex:1;
+    font-size: 3em;
+    margin-left: -47px;
+    margin-top: 1px;
+}
+.add input{
+    flex: 5;
+    border:none;
+    border-radius: 100px;
+    padding: 15px 50px 15px 15px;
+    font-size:17px;
+    width: 100%;
+    font-family:"Libertinus Serif", serif;
+}
+input:focus{
+    outline: none;
+}
+.todo{
+    margin-top: 30px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.modif{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    gap: 5px;
+}
+.txt{
+    background-color: white;
+    border:none;
+    padding: 15px;
+    width: 85%;
+    border-radius: 5px;
+    font-family:"Libertinus Serif", serif;
+    font-size: 17px;
+}
+.txt:focus{
+    outline: none;
+}
+.modif i{
+    cursor:pointer;
+}
+.check{
+    transform: scale(1.5);
+    margin-left: 10px;
+    accent-color: green;
+}
+.barré{
+    text-decoration: line-through;
+    color:green;
+}
